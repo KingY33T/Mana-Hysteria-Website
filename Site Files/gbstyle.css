@@ -1,13 +1,14 @@
 #HCB_comment_box #hcb_emoji_picker_sm::marker, #HCB_comment_box #hcb_bbcode_picker_sm::marker {
   content: none;
 }
-#HCB_comment_box{border: 2px solid #FFFFFF; border-radius: 5px; padding: 10px; color:#FFFFFF; background: rgba(0, 0, 0, 0.5);}
+#HCB_comment_box{border-style: solid;border-width: 8px 8px 8px 8px;border-image: url("https://zats-a-sour.neocities.org/border-white.png") 8 8 8 8 repeat repeat;border-image-outset: 2px; font-family: inherit;}
 .hcb-mod b{color:#0088AF;}
 #HCB_comment_box textarea,#HCB_comment_box input.text{border-top:1px solid #e4e4e4;border-left:1px solid #e4e4e4;border-bottom:1px solid #eaeaea;border-right:1px solid #eaeaea;background-color:#f8f8f8;}
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {font-family: comic sans ms; font-size: 14px; padding: 1px 2px 1px 2px; margin: 0;}
 #HCB_comment_box .hcb-wrapper-half{display:block;width:50%;float:left;}
 #HCB_comment_box .hcb-wrapper{clear:both;}
 #HCB_comment_box input.text{display:block;width:95%;}
 #HCB_comment_box input.submit{border-top:1px solid #FCB1A2;border-left:1px solid #FCB1A2;border-bottom:1px solid #BB2B0F;border-right:1px solid #BB2B0F;background-color:#F26646;color:#000;font-weight:bold;cursor:pointer;}
-#HCB_comment_box div.comment{color:#FDB3A5; background: rgba(0, 0, 0, 0.5); border:3px double #F26646 ; margin:5px; padding:2px;}
+#HCB_comment_box div.comment{background-color: #a99bff;border-style: solid;border-width: 4px 4px 4px 4px;border-image: url("https://zats-a-sour.neocities.org/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat;border-image-outset: 1px;margin:5px;}
 #HCB_comment_box .comment .likes{color: #00FF00;}
 #HCB_comment_box .hcb-link{color:#0088AF;text-decoration:none;} 
