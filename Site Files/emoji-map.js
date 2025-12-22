@@ -1,3 +1,4 @@
 window.emojiMap = {
-  ":zoeysmile:": "<img src='favicon.png' class='emoji'>"
+  ":zoeysmile:": "<img src='/smileys/zoeysmile.png' class='emoji'>",
+  ":sodacan:": "<img src='/smileys/sodacan.png' class='emoji'>"
 };
