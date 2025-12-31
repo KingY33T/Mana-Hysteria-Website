@@ -1,0 +1,9 @@
+-this file is for storing leftover code to use for later because
+i dont want to spend hours upon hours trying to find out 
+how to program shit into my website again
+
+Image borders
+--------------
+  border-width: 8px 8px 8px 8px;
+  border-image: url("bordertest.gif") 8 8 8 8 repeat;
+  border-image-outset: 4px;
