@@ -1,21 +1,21 @@
 html {
-  cursor: url('cursor-idle-0.png'), auto;
+  cursor: url('cursor/cursor-idle-0.png'), auto;
   -webkit-animation: defaultcursor 126ms infinite;
   animation: defaultcursor 126ms infinite;
 }
 
 @-webkit-keyframes defaultcursor {
   0% {cursor: url(cursor/cursor-idle-0.png), auto;}
-  33.33% {cursor: url('cursor-idle-1.png'), auto;}
-  66.66% {cursor: url('cursor-idle-2.png'), auto;}
-  100% {cursor: url('cursor-idle-0.png'), auto;}
+  33.33% {cursor: url('cursor/cursor-idle-1.png'), auto;}
+  66.66% {cursor: url('cursor/cursor-idle-2.png'), auto;}
+  100% {cursor: url('cursor/cursor-idle-0.png'), auto;}
 } 
 
 @keyframes defaultcursor {
   0% {cursor: url('cursor-idle-0.png'), auto;}
-  33.33% {cursor: url('cursor-idle-1.png'), auto;}
-  66.66% {cursor: url('cursor-idle-2.png'), auto;}
-  100% {cursor: url('cursor-idle-0.png'), auto;}
+  33.33% {cursor: url('cursor/cursor-idle-1.png'), auto;}
+  66.66% {cursor: url('cursor/cursor-idle-2.png'), auto;}
+  100% {cursor: url('cursor/cursor-idle-0.png'), auto;}
 }
 
 a {
@@ -50,4 +50,5 @@ a {
   80% {cursor: url(cursor/cursor-link-8.png), auto;}
   90% {cursor: url(cursor/cursor-link-9.png), auto;}
   100% {cursor: url(cursor/cursor-link-0.png), auto;}
+
 }
