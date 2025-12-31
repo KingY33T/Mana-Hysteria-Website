@@ -11,8 +11,8 @@ function selectdrawing(filename) {
 function closedrawing(filename) {
   dialog = document.getElementById("dialog");
   artwork = document.getElementById(filename);
-  dialog.style.display = "block";
-  artwork.style.display = "block";
+  dialog.style.display = "none";
+  artwork.style.display = "none";
 }
 
 function closealldrawings() {
