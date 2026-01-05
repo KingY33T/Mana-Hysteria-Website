@@ -12,10 +12,9 @@ Released under the Unlicense - https://unlicense.org/
 }
 
 .ezgallery.montage img {
-  flex: auto;
-  margin: 0 5px 5px 0;
   object-fit: contain;
   object-position: bottom;
+  height: 240px;
 }
 
 .ezgallery.horizontal { 
