@@ -5,7 +5,7 @@ function selectdrawing(filename) {
   dialog = document.getElementById("dialog");
   artwork = document.getElementById(filename);
   dialog.style.display = "flex";
-  artwork.style.display = "flex";
+  artwork.style.display = "block";
 }
 
 function closealldrawings() {
