@@ -12,3 +12,7 @@
     margin: auto;
     color: white;
 }
+
+.ezgallery.montage img {
+  cursor: pointer;
+}
