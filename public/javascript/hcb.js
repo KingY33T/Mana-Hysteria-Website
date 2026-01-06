@@ -98,12 +98,12 @@ if (
 // Lazyyyy zzzzzzz
 if (!window.emojiMap) {
   const mapscript = document.createElement("script");
-  mapscript.src = "/emoji-map.js";
+  mapscript.src = "/javascript/emoji-map.js";
   mapscript.onload = initReplace;
   document.head.appendChild(mapscript);
 
   const btnscript = document.createElement("script");
-  btnscript.src = "/hcb-btn.js";
+  btnscript.src = "/javascript/hcb-btn.js";
   btnscript.onload = initReplace;
   document.head.appendChild(btnscript);
 } else {
