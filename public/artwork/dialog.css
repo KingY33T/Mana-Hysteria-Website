@@ -1,4 +1,4 @@
-#dialog{
+#dialog {
     background-color: rgba(0, 0, 0, 0.5); /* remember to replace with a semi-transparent background */
     width: 100%;
     height: 100%;
@@ -7,7 +7,7 @@
     display: none;
 }
 
-#dialog div{
+#dialog div {
     display: none;
     margin: auto;
     color: white;
