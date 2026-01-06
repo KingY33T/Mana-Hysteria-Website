@@ -4,8 +4,8 @@ var artwork;
 function selectdrawing(filename) {
   dialog = document.getElementById("dialog");
   artwork = document.getElementById(filename);
-  dialog.style.display = "block";
-  artwork.style.display = "block";
+  dialog.style.display = "flex";
+  artwork.style.display = "flex";
 }
 
 function closealldrawings() {
