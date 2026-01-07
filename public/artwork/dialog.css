@@ -16,3 +16,10 @@
 .ezgallery.montage img {
   cursor: pointer;
 }
+
+#inner {
+  display: none;
+  overflow-y: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
