@@ -22,5 +22,5 @@
   display: none;
   overflow-y: auto;
   height: 100%;
-  scrollbar-width: none;
+  width: 100%
 }
