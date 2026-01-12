@@ -27,7 +27,7 @@
 
 .outertape {
   position: relative;
-  margin: 8px;
+  margin: 16px;
 }
 
 .tapeimg {
@@ -35,10 +35,10 @@
   height: 100%;
   position: absolute;
   border-style: solid;
-  border-width: 32px;
-  border-image: url("/divs/tapedivplaceholder.png") 32 repeat repeat;
+  border-width: 64px;
+  border-image: url("/divs/tapediv.png") 64 repeat repeat;
   box-sizing: border-box;
-  border-image-outset: 12px;
+  border-image-outset: 24px;
   pointer-events: none;
 }
 
