@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of zats-a-sour</title>
+    
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/ezgallery.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/artwork/dialog.css" rel="stylesheet" type="text/css" media="all">
+    <style type="text/css"></style><style type="text/css" id="operaUserStyle"></style>
+    <style type="text/css"></style><style type="text/css"></style>
+    <style type="text/css"></style>
+    <script src="/javascript/dialog.js"></script>
+  </head>
+  <body>
+    <div id="dialog" onclick="closealldrawings()">
+      <div id="inner">
+        <div id="harborg">
+          <img src="/artwork/og/harleenborg.png"><img src="/artwork/og/harleenborg_trans.png">
+          <p>My entry for the DC OC art collab hosted by @jDogexe.bsky.social</p>
+          <p>Harleen as Cyborg from Teen Titans!!! ^-^</p>
+        </div>
+        <div id="lampcano">
+          <img src="/artwork/og/lampvolcano.png">
+          <p>Made this to practice drawing backgrounds, with a little inspiration from Rockos Modern Life.</p>
+        </div>
+        <div id="harkick">
+          <img src="/artwork/og/harleenkick.png">
+          <p>I was trying to spice things up a while ago by not drawing zoey for the milionth time for a while.</p>
+        </div>
+        <div id="zoeyref">
+          <img src="/artwork/og/zoeyrefpg1.png"><img src="/artwork/og/zoeyrefpg2.png">
+          <p>Zoeys 4.0 ref sheet from late 2024!!!</p>
+        </div>
+        <div id="zoevslime">
+          <img src="/artwork/og/zoey_vs_slimelord.png">
+          <p>Adventurers vs slimes. A tale as old as time... s</p>
+        </div>
+        <div id="duende">
+          <img src="/artwork/og/duende.png">
+          <p>Pretty old artwork of zoey standing on a treetop. Some HEAVY perspective practice this one was.</p>
+          <p>I wanted to make this drawing a multi-media thing with like a whole stage setup using a few rocks and sticks, but it was raining every other day and I was busy with school.</p>
+        <p>So I said "FUCK IT" and hand drew the background.</p>
+        </div>
+      </div>
+    </div>
+    <div class="mini-header" style="height: 100px;">
+      <a href="https://zats-a-sour.neocities.org/Gallerymen">
+      <img src="/navigation/bkbutton.png" onmouseover="this.src='/navigation/bkbuttonh.png'" onmouseout="this.src='/navigation/bkbutton.png'"></a>
+    </div>
+    <div class="maincontainer" style="width: 800px; image-rendering: pixelated;"> <!-- remember to make an actual seperate div class for these style rules later-->
+      <div class="container">
+        <p>|WIP WIP WIP|     Click on a drawing to view the full scale image     |WIP WIP WIP|</p>
+        <div class="ezgallery montage">
+    <!-- Place artwork down bellow. If an artwork is square or taller, set its WIDTH to 240. If its wider, set its HEIGHT to 240-->
+          <div class="outertape">
+            <div class="tapeimg"></div>
+            <img src="/artwork/og/harleenborg.png" onclick="selectdrawing('harborg')">
+          </div>
+          <div class="outertape">
+            <div class="tapeimg"></div>
+            <img src="/artwork/og/lampvolcano.png" onclick="selectdrawing('lampcano')">
+          </div>
+          <div class="outertape">
+            <div class="tapeimg"></div>
+            <img src="/artwork/og/harleenkick.png" onclick="selectdrawing('harkick')">
+          </div>
+          <div class="outertape">
+            <div class="tapeimg"></div>
+            <img src="/artwork/og/zoeyrefpg1.png" onclick="selectdrawing('zoeyref')">
+          </div>
+          <div class="outertape">
+            <div class="tapeimg"></div>
+            <img src="/artwork/og/zoey_vs_slimelord.png" onclick="selectdrawing('zoevslime')">
+          </div>
+          <div class="outertape">
+            <div class="tapeimg"></div>
+            <img src="/artwork/og/duende.png" onclick="selectdrawing('duende')">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
