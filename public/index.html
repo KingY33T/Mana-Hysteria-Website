@@ -5,6 +5,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cursor/cursor.css">
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var site_data = JSON.parse(this.responseText);
+      document.getElementById("hitcount").innerHTML = site_data.info.views;
+    }
+  };
+  xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=zats-a-sour", true);
+  xhttp.send();
+    </script>
   </head>
   <body>
     <!-- Top background div here is TEMPORARY and will be replaced once i properly resize it by hand and give it a few tweaks and whatnot-->
@@ -27,9 +38,9 @@
     <!-- Right sidebar-->
     <div class="side" style="left:752px">
       <div class="container" style="text-shadow: 1px 1px #000;color: white; text-align:center; font-family: impact; font-size: 21px">
-        SIGN THE GUESTBOOK!!!
-        <a href="/guestbook">
-        <img src="navigation/guestbook.png" onmouseover="this.src='navigation/guestbookh.png'" onmouseout="this.src='navigation/guestbook.png'" style="margin-left: 20px;display: block;"></a>
+        <p style="margin: 0px">SIGN THE GUESTBOOK!!!</p>
+        <a href="/guestbook" style="display: inline-block">
+        <img src="navigation/guestbook.png" onmouseover="this.src='navigation/guestbookh.png'" onmouseout="this.src='navigation/guestbook.png'" style="display: block;"></a>
       </div>
     <img src="/chat.gif" style="position: absolute; bottom: 105px; left: -30px">
     <img src="can.png" style="position: absolute; bottom: 125px; left: 100px">
