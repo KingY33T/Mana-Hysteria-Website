@@ -1,0 +1,17 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var site_data = JSON.parse(this.responseText);
+      document.write(site_data.result)
+    }
+  };
+  xhttp.open("GET", "https://manahysteria.com/neocities.php?sitename=zats-a-sour", true);
+  xhttp.send();
+</script>
+  </body>
+</html>
