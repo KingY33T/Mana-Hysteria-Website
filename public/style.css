@@ -91,7 +91,7 @@ body{
   overflow: hidden;
 }
 
-.marque{
+.marquee{
   animation: marquee 20s linear infinite;
 }
 
