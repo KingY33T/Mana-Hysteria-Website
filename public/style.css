@@ -106,3 +106,8 @@ footer{
   Margin-right: auto;
   width:900px;
 }
+
+footer p{
+  background-color: white;
+  margin: 0px;
+}
