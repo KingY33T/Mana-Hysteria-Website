@@ -66,6 +66,16 @@ body{
   width: 200px;
 }
 
+.blogpostpvw {
+  background-color: pink;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat;
+  border-image-outset: 1px;
+  margin: 4px auto 4px auto;
+  width: 200px;
+}
+
 .row {
   width: 680px;
   margin-left: auto ;
