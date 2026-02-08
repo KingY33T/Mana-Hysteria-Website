@@ -95,6 +95,7 @@ body{
   animation: marquee 20s linear infinite;
   width: max-content;
   white-space: nowrap;
+  display: flex;
 }
 
 @keyframes marquee {
