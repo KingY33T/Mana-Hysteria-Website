@@ -94,6 +94,7 @@ body{
 .marquee{
   animation: marquee 20s linear infinite;
   width: max-content;
+  white-space: nowrap;
 }
 
 @keyframes marquee {
