@@ -81,11 +81,27 @@ body{
   margin-left: auto ;
   margin-bottom: 4px;
 }
-
+/* use on <p> elements ONLY */
+.impact{
+  text-shadow: 1px 1px #000;
+  color: white;
+  font-family: impact;
+  font-size: 21px;
+  margin: 0px;
+}
 .buttons {
   display: block;
   width: 680px;
   height: 33px;
+  margin-left: auto ;
+  margin-right: auto ;
+  overflow: hidden;
+}
+
+.stamps {
+  display: block;
+  width: 680px;
+  height: 60px;
   margin-left: auto ;
   margin-right: auto ;
   overflow: hidden;
@@ -96,6 +112,15 @@ body{
   width: max-content;
   white-space: nowrap;
   display: flex;
+  align-items: center;
+}
+
+.marqueestamp{
+  animation: marquee 30s linear infinite;
+  width: max-content;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
 @keyframes marquee {
