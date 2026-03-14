@@ -37,7 +37,7 @@ body{
 }
 
 .container {
-  background-color: #a99bff;
+  background-color: #a99cff;
   border-style: solid;
   border-width: 4px 4px 4px 4px;
   border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat;
@@ -80,13 +80,14 @@ body{
   width: 680px;
   margin-left: auto ;
   margin-bottom: 4px;
+  margin-right: 1px
 }
 /* use on <p> elements ONLY */
 .impact{
   text-shadow: 1px 1px #000;
   color: white;
-  font-family: impact;
-  font-size: 21px;
+  font-size: 18px;
+  font-weight: bold;
   margin: 0px;
 }
 .buttons {
@@ -134,10 +135,11 @@ body{
   
 .side {
   width: 200px;
-  height: 400px;
+  height: 40100%0px;
   flex-wrap: wrap;
   display: block;
   position: absolute;
+  margin-left: 1px;
 }
 
 
@@ -147,9 +149,9 @@ footer{
   margin-left: auto;
   Margin-right: auto;
   width:900px;
+  background-color: #a99cff;
 }
 
 footer p{
-  background-color: white;
   margin: 0px;
 }
