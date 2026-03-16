@@ -42,6 +42,8 @@ body{
   border-width: 4px 4px 4px 4px;
   border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat;
   border-image-outset: 1px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .placeholder{
