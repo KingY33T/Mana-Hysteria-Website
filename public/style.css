@@ -44,6 +44,18 @@ body{
   border-image-outset: 1px;
   flex-grow: 0;
   flex-shrink: 0;
+  position: relative;
+}
+
+.shadow {
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat;
+  border-image-outset: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 .placeholder{
