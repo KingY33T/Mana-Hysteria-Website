@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Zats-a-sour Art Feed</title>
+  <description>This is the description of your RSS feed</description>
+  <link>https://manahysteria.com/</link>
+  <lastBuildDate>
+    Wed, 08 Jul 2026 22:26:00 -0400
+  </lastBuildDate>
+  <ttl>20000</ttl>
+
+  <item>
+  <title>Deltarune Ch5 Fanart</title>
+  <description>
+    FINALLY DREW SOMETHING AGAIN (almost) in time for the release of deltarune ch5!!! ^w^
+  </description>
+  <link>https://rssguide.neocities.org/the_article.html</link>
+  <media:thumbnail url="https://manahysteria.com/artwork/fanart/Deltarune_ch5_drawing.png" width="240" height="240" />
+  <pubDate>
+    Sun, 5 Jul 2018 09:58 +0100
+  </pubDate>
+</item>
+</channel>
+</rss>
