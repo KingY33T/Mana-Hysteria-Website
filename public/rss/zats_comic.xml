@@ -10,6 +10,9 @@
   <ttl>20000</ttl>
   <item>
   <title>ManaHysteria comic strip #3: Think of Your Boss</title>
+  <description>
+    Comic Ctrip #3
+  </description>
   <link>https://manahysteria.com/</link>
   <media:thumbnail url="https://manahysteria.com/comic/Think_of_boss_oops.png" width="300" height="100" />
   <guid isPermaLink="false">MH_strip_3</guid>
@@ -19,6 +22,9 @@
 </item>
   <item>
   <title>ManaHysteria comic strip #2: Shipwreck</title>
+  <description>
+    Comic Ctrip #2
+  </description>
   <link>https://manahysteria.com/</link>
   <media:thumbnail url="https://manahysteria.com/comic/Shipwreck.png" width="300" height="100" />
   <guid isPermaLink="false">MH_strip_2</guid>
