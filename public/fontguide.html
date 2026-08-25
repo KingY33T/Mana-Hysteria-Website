@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Not Found</title>
+  </head>
+  <body style="background: black;color: white;width: 800px;margin: 0px;">
+    <p>This site was designed for FIREFOX with windows fonts and a lack of anti-aliasing in mind in order to provide an experience similar to old websites from the 90s and 2000s.</p>
+    <p>Unfortunately, there are no css styles to modify font anti-aliasing. Linux, specifically Mint since thats what I use, has different default font settings and is not pre-loaded with windows fonts.</p>
+    <p>Disabling AA is completely optional for those who find it hard on the eyes, so first ill provide a guide on how to view this site a little better on linux. Windows users who don't like pixely fonts do NOT need to take any action if they don't want to as everything else works out of the box.</p>
+    <h1>Fixing font size issues on linux (only tested on mint)</h1>
+    <p>Step 1: Locate the file "fonts.conf" in either of these directories. Create it if it isn't there </p>
+    <ul>
+        <li>SYSTEM WIDE: /etc/fonts/fonts.conf</li>
+        <li>PER-USER: ~/[YOUR USERNAME]/.config/fontconfig/fonts.conf</li>
+    </ul>
+    <p>Step 2: Copy and paste this code into it and save.</p>
+    <textarea style="height: 300px; width: 350px;">&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE fontconfig SYSTEM "fonts.dtd"&gt;
+&lt;fontconfig&gt;
+  &lt;match target="font"&gt;
+    &lt;edit mode="assign" name="hinting"&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+    &lt;/edit&gt;
+    &lt;edit mode="assign" name="hintstyle"&gt;
+      &lt;const&gt;hintfull&lt;/const&gt;
+    &lt;/edit&gt;
+    &lt;edit mode="assign" name="embeddedbitmap"&gt;
+      &lt;const&gt;true&lt;/const&gt;
+    &lt;/edit&gt;
+    &lt;edit mode="assign" name="autohint"&gt;
+      &lt;const&gt;false&lt;/const&gt;
+    &lt;/edit&gt;
+  &lt;/match&gt;
+&lt;/fontconfig&gt;</textarea>
+    <p>Step 3: Install FONT MANAGER either through file manager or through terminal using these two commands in order.</p>
+    <p style="margin-left: 20px;">sudo apt update</p>
+    <p style="margin-left: 20px;">sudo apt install font-manager</p>
+    <p>Step 4: In Font Manager, go into setting and check the following:</p>
+    <ul>
+        <li>Hinting Style: Fill</li>
+        <li>Auto-hinting: Disabled</li>
+    </ul>
+    <p>Step 5: Install mscorefonts using...</p>
+    <p style="margin-left: 20px;">sudo apt-get install ttf-mscorefonts-installer</p>
+    <p>And you're done! In case youre wondering, you do NOT need to edit this file ever again when enabling or disabling AA.</p>
+    <h1>Turning of anti-aliasing</h1>
+    <p>Windows:</p>
+    <p>Open control pannel,  search "performance", look for "Adjust the appearance and performance of Windows", and disable "Smooth edges of screen fonts". For good measure go into settings &gt; personalization &gt; fonts &gt; related settings &gt; adjust cleartype text, then uncheck the "Turn on Cleartype".</p>
+    <p>Linux:</p>
+    <p>Go into Font Manager &gt; settings &gt; rendering and turn Antialias off</p>
+    </body>
+</html>
