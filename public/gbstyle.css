@@ -12,6 +12,6 @@
 #HCB_comment_box div.comment{background-color: #a99bff;border-style: solid;border-width: 4px 4px 4px 4px;border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat;border-image-outset: 1px;margin:5px;}
 #HCB_comment_box .comment .likes{color: #00FF00;}
 #HCB_comment_box .hcb-link{color:#0088AF;text-decoration:none;} 
-#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {font-family:comic sans ms;}
+#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {font-family:comic sans ms; padding: 0;}
 #HCB_comment_box .hcb-comment-tb button{color:#0000ff;}
 #HCB_comment_box .date{color:#80f;}
