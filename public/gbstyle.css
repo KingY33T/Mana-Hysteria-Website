@@ -8,7 +8,7 @@
 #HCB_comment_box .hcb-wrapper-half{display:block!important;width:50%;float:left!important;}
 #HCB_comment_box .hcb-wrapper{clear:both!important;}
 #HCB_comment_box input.text{display:block !important ;width:95% !important;}
-#HCB_comment_box input.submit{border-top:1px solid #FCB1A2;border-left:1px solid #FCB1A2;border-bottom:1px solid #BB2B0F;border-right:1px solid #BB2B0F;background-color:#F26646;color:#000;font-weight:bold;cursor:pointer;}
+#HCB_comment_box input.submit{border-top:1px solid #FCB1A2 !important;border-left:1px solid #FCB1A2 !important;border-bottom:1px solid #BB2B0F !important;border-right:1px solid #BB2B0F !important;background-color:#F26646 !important;color:#000 !important;font-weight:bold !important;cursor:pointer !important;}
 #HCB_comment_box div.comment{background-color: #a99bff !important;border-style: solid !important;border-width: 4px 4px 4px 4px !important; border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat !important;border-image-outset: 1px !important; margin:5px !important;}
 #HCB_comment_box .comment .likes{color: #00FF00 !important;}
 #HCB_comment_box .hcb-link{color:#0088AF !important;text-decoration:none !important;} 
