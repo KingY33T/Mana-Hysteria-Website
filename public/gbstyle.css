@@ -1,18 +1,18 @@
 #HCB_comment_box #hcb_emoji_picker_sm::marker, #HCB_comment_box #hcb_bbcode_picker_sm::marker {
   content: none;
 }
-#HCB_comment_box{border-style: solid;border-width: 8px 8px 8px 8px;border-image: url("divs/border-white.png") 8 8 8 8 repeat repeat;border-image-outset: 2px; font-family: inherit;}
-.hcb-mod b{color:#ff00ef;text-shadow: 1px 1px #000;font-weight: normal;font-family: showcard gothic;font-size: 16px;}
-#HCB_comment_box textarea,#HCB_comment_box input.text{border-top:1px solid #e4e4e4;border-left:1px solid #e4e4e4;border-bottom:1px solid #eaeaea;border-right:1px solid #eaeaea;background-color:#f8f8f8;}
-#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {font-family: comic sans ms; font-size: 14px; padding: 1px 2px 1px 2px; margin: 0;}
-#HCB_comment_box .hcb-wrapper-half{display:block;width:50%;float:left;}
-#HCB_comment_box .hcb-wrapper{clear:both;}
-#HCB_comment_box input.text{display:block;width:95%;}
+#HCB_comment_box{border-style: solid !important;border-width: 8px 8px 8px 8px !important;border-image: url("divs/border-white.png") 8 8 8 8 repeat repeat !important;border-image-outset: 2px !important; font-family: inherit !important;}
+.hcb-mod b{color:#ff00ef !important;text-shadow: 1px 1px #000 !important;font-weight: normal !important;font-family: Impact !important;font-size: 16px !important;}
+#HCB_comment_box textarea,#HCB_comment_box input.text{border-top:1px solid #e4e4e4 !important;border-left:1px solid #e4e4e4 !important;border-bottom:1px solid #eaeaea !important;border-right:1px solid #eaeaea !important;background-color:#f8f8f8 !important;}
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {font-family: comic sans ms !important; font-size: 14px !important; padding: 1px 2px 1px 2px !important; margin: 0 !important;}
+#HCB_comment_box .hcb-wrapper-half{display:block!important;width:50%;float:left!important;}
+#HCB_comment_box .hcb-wrapper{clear:both!important;}
+#HCB_comment_box input.text{display:block !important ;width:95% !important;}
 #HCB_comment_box input.submit{border-top:1px solid #FCB1A2;border-left:1px solid #FCB1A2;border-bottom:1px solid #BB2B0F;border-right:1px solid #BB2B0F;background-color:#F26646;color:#000;font-weight:bold;cursor:pointer;}
-#HCB_comment_box div.comment{background-color: #a99bff;border-style: solid;border-width: 4px 4px 4px 4px;border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat;border-image-outset: 1px;margin:5px;}
-#HCB_comment_box .comment .likes{color: #00FF00;}
-#HCB_comment_box .hcb-link{color:#0088AF;text-decoration:none;} 
-#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {font-family:comic sans ms; padding: 0;}
-#HCB_comment_box .hcb-comment-tb button{color:#0000ff;}
-#HCB_comment_box .date{color:#80f;}
-#HCB_comment_box #hcb_emoji_picker_dt, #HCB_comment_box #hcb_bbcode_picker_dt {color: black; background:white; border: outset white;}
+#HCB_comment_box div.comment{background-color: #a99bff !important;border-style: solid !important;border-width: 4px 4px 4px 4px !important; border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat !important;border-image-outset: 1px !important; margin:5px !important;}
+#HCB_comment_box .comment .likes{color: #00FF00 !important;}
+#HCB_comment_box .hcb-link{color:#0088AF !important;text-decoration:none !important;} 
+#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {font-family:comic sans ms !important; padding: 0 !important;}
+#HCB_comment_box .hcb-comment-tb button{color:#0000ff !important;}
+#HCB_comment_box .date{color:#80f!important;}
+#HCB_comment_box #hcb_emoji_picker_dt, #HCB_comment_box #hcb_bbcode_picker_dt {color: black !important; background:white !important; border: outset white !important;}
