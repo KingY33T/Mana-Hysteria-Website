@@ -15,4 +15,4 @@
 #HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {font-family:comic sans ms; padding: 0;}
 #HCB_comment_box .hcb-comment-tb button{color:#0000ff;}
 #HCB_comment_box .date{color:#80f;}
-#HCB_submit.submit.btn{color: black; background: yellow; border: outset yellow;}
+#HCB_comment_box #hcb_emoji_picker_dt, #HCB_comment_box #hcb_bbcode_picker_dt {color: black; background:white; border: outset white;}
