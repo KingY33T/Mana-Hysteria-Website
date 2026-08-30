@@ -8,13 +8,13 @@
 #HCB_comment_box .hcb-wrapper-half{display:block!important;width:208px;float:left!important;}
 #HCB_comment_box .hcb-wrapper{clear:both!important;}
 #HCB_comment_box input.text{display:block !important ;width:95% !important;}
-#HCB_comment_box input.submit{border-top:1px solid #FCB1A2 !important;border-left:1px solid #FCB1A2 !important;border-bottom:1px solid #BB2B0F !important;border-right:1px solid #BB2B0F !important;background-color:#F26646 !important;color:#000 !important;font-weight:bold !important;cursor:pointer !important;}
+#HCB_comment_box input.submit{border: 3px outset yellow !important;background-color: yellow !important;color:#000 !important;font-weight:bold !important;cursor:pointer !important; width: 100px !important;}
 #HCB_comment_box div.comment{background-color: #a99bff !important;border-style: solid !important;border-width: 4px 4px 4px 4px !important; border-image: url("divs/bordertestmkIIelectricboobyglue-1.png") 4 4 4 4 repeat repeat !important;border-image-outset: 1px !important; margin:5px !important;}
 #HCB_comment_box .comment .likes{color: #00FF00 !important;}
 #HCB_comment_box .hcb-link{color:#0088AF !important;text-decoration:none !important;} 
-#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {font-family:comic sans ms !important; padding: 0 !important;}
+#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {font-family:comic sans ms !important; padding: 0 !important; width: 100px; text-align: center;}
 #HCB_comment_box .hcb-comment-tb button{color:#0000ff !important;}
 #HCB_comment_box .date{color:#80f!important;}
-#HCB_comment_box #hcb_emoji_picker_dt, #HCB_comment_box #hcb_bbcode_picker_dt {color: black !important; background:white !important; border: outset white !important;}
+#HCB_comment_box #hcb_emoji_picker_dt, #HCB_comment_box #hcb_bbcode_picker_dt {color: black !important; background:white !important; border: 3px outset white !important; width: 94px; margin-right: 8px; text-align: center;}
 #HCB_comment_box h3 {text-shadow: 1px 1px #000; color: white; font-size: 18px; font-weight: bold; margin: 0px;}
 #HCB_comment_box input {font-family: comic sans ms !important; padding: 0px !important;}
