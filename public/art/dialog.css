@@ -16,6 +16,7 @@
 
 .ezgallery.montage img {
   cursor: pointer;
+  margin: 16px 0
 }
 
 #inner {
@@ -28,6 +29,7 @@
 .outertape {
   position: relative;
   margin: 16px;
+  background: white;
 }
 
 .tapeimg {
