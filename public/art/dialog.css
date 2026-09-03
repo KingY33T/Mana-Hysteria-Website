@@ -16,7 +16,10 @@
 
 .ezgallery.montage img {
   cursor: pointer;
-  margin: 16px 0
+}
+
+.ezgallery.montage img {
+  margin: 16px 0;
 }
 
 #inner {
