@@ -27,7 +27,7 @@ body{
 .maincontainer {
   font-family: comic sans ms;
   font-size: 14px;
-  width: 820px;
+  width: 768px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -149,8 +149,7 @@ body{
 }
   
 .side {
-  width: 200px;
-  height: 40100%0px;
+  width: 150px;
   flex-wrap: wrap;
   display: block;
   position: absolute;
