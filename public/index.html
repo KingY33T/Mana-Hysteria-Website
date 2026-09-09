@@ -2,20 +2,10 @@
 <html>
   <head>
     <title> ManaHysteria </title>
+    <link rel="preload" type="image" href="background/bg_wood_final.png">
+    <link rel="preload" type="image" href="divs/bordertestmkIIelectricboobyglue-1.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cursor/cursor.css">
     <link rel="icon" type="image/x-icon" href="favicon.png">
-    <script>
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var site_data = JSON.parse(this.responseText);
-      document.getElementById("hitcount").innerHTML = String(site_data.info.views).padStart(7, '0');
-    }
-  };
-  xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=zats-a-sour", true);
-  xhttp.send();
-    </script>
   </head>
   <body>
     <!-- Top background div here is TEMPORARY and will be replaced once i properly resize it by hand and give it a few tweaks and whatnot-->
