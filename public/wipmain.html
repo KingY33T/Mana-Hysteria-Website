@@ -93,22 +93,22 @@
     <div class="row" style="display: flex;"> <!-- Button row-->
       <div class="buttons">
         <div class="marquee">
-          <img src="/buttonv2.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttonv2.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
-          <img src="/buttons/under-con.gif">
+          <img custom-src="/buttonv2.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttonv2.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
+          <img custom-src="/buttons/under-con.gif">
         </div>
       </div>
     </div>
@@ -199,5 +199,16 @@
     <img src="buttons/noai.gif"><img src="buttons/Neo button.gif"><img src="buttons/bookmark.png">
     <p>Copyright uuuuhhhhh...</p>
   </footer>
+  <script>
+    window.onload = function() {
+      var images =
+      document.getElementsByTagName('img');
+      for (var i = 0; i < images.length; i++){
+        if (images[i].getAttribute('custom-src')) {
+          images[i].scr = images[i].getAttribute('custom-src');
+        }
+      }
+    }
+  </script>
   </body>
 </html>
