@@ -2,20 +2,10 @@
 <html>
   <head>
     <title> ManaHysteria </title>
+    <link rel="preload" as="image" href="background/bg_wood_final.png" fetchpriority="high">
+    <link rel="preload" as="image" href="divs/bordertestmkIIelectricboobyglue-1.png" fetchpriority="high">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cursor/cursor.css">
     <link rel="icon" type="image/x-icon" href="favicon.png">
-    <script>
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var site_data = JSON.parse(this.responseText);
-      document.getElementById("hitcount").innerHTML = String(site_data.info.views).padStart(7, '0');
-    }
-  };
-  xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=zats-a-sour", true);
-  xhttp.send();
-    </script>
   </head>
   <body>
     <!-- Top background div here is TEMPORARY and will be replaced once i properly resize it by hand and give it a few tweaks and whatnot-->
@@ -27,24 +17,24 @@
     <!-- Left sidebar -->
       <div class="side">
         <a href="/about_me" style="display: block;">
-          <img src="/navigation/aboutbtn.png" onmouseover="this.src='navigation/aboutbtnH.png'" onmouseout="this.src='navigation/aboutbtn.png'" style="display: block;"></a>
+          <img src="/navigation/aboutbtnsmall.png" onmouseover="this.src='navigation/aboutbtnHsmall.png'" onmouseout="this.src='navigation/aboutbtnsmall.png'" style="display: block;"></a>
         <a href="/comics" style="display: block;">
-          <img src="/navigation/comicbtn.png" onmouseover="this.src='navigation/comicbtnH.png'" onmouseout="this.src='navigation/comicbtn.png'" style="display: block;"></a>
+          <img src="/navigation/comicbtnsmall.png" onmouseover="this.src='navigation/comicbtnHsmall.png'" onmouseout="this.src='navigation/comicbtnsmall.png'" style="display: block;"></a>
         <a href="/art" style="display: block;">
-          <img src="/navigation/artbtn.png" onmouseover="this.src='navigation/artbtnH.png'" onmouseout="this.src='navigation/artbtn.png'" style="display: block;"></a>
-        <a href="/not_found" style="display: block;">
-          <img src="/navigation/flashbtn.png" onmouseover="this.src='navigation/flashbtnH.png'" onmouseout="this.src='navigation/flashbtn.png'" style="display: block;"></a>
+          <img src="/navigation/artbtnsmall.png" onmouseover="this.src='navigation/artbtnHsmall.png'" onmouseout="this.src='navigation/artbtnsmall.png'" style="display: block;"></a>
+        <a href="/flash" style="display: block;">
+          <img src="/navigation/flashbtnsmall.png" onmouseover="this.src='navigation/flashbtnHsmall.png'" onmouseout="this.src='navigation/flashbtnsmall.png'" style="display: block;"></a>
         <a href="/blog" style="display: block;">
-          <img src="/navigation/blogbtn.png" onmouseover="this.src='navigation/blogbtnH.png'" onmouseout="this.src='navigation/blogbtn.png'" style="display: block;"></a>
-        <a href="/not_found" style="display: block;height: 50px;background-color: aquamarine;">
-          Fun stuff!</a>
-        <a href="/links" style="display: block;height: 50px;background-color: aquamarine;">
-          Contact me!</a>
+          <img src="/navigation/blogbtnsmall.png" onmouseover="this.src='navigation/blogbtnHsmall.png'" onmouseout="this.src='navigation/blogbtnsmall.png'" style="display: block;"></a>
+        <a href="/not_found" style="display: block;">
+          <img src="/navigation/morebtnsmall.png" onmouseover="this.src='navigation/morebtnHsmall.png'" onmouseout="this.src='navigation/morebtnsmall.png'" style="display: block;"></a>
+        <a href="/links" style="display: block;">
+          <img src="/navigation/linksbtnsmall.png" onmouseover="this.src='navigation/linksbtnHsmall.png'" onmouseout="this.src='navigation/linksbtnsmall.png'" style="display: block;"></a>
         <div class="container" style="text-align: center; margin-bottom: 4px;">
           <div class="shadow">
           </div>
           <p class="impact">SIGN THE GUESTBOOK!!!</p>
-          <a href="/guestbook" style="display: inline-block">
+          <a href="/not_found" style="display: inline-block">
             <img src="navigation/guestbook.png" onmouseover="this.src='navigation/guestbookh.png'" onmouseout="this.src='navigation/guestbook.png'" style="display: block;"></a>
         </div>
         <div class="container" style="margin-bottom: 4px;">
@@ -91,8 +81,9 @@
                 <img src="/buttons/adobe_get_flash_player.gif">
               </div>
             </div>
-            <p>GORE, STRONG LANGUAGE AND DARK THEMES!</p>
-            <p>For best experience I recommend turning off font anti-aliasing and auto-hinting(for linux users(PLZ TELL ME HOW TO DO THAT ON FIREFOX PLZ PLZ PLZ))</p>
+            <p style="margin-top: 0">GORE, STRONG LANGUAGE AND DARK THEMES!</p>
+            <p>For best experience I recommend turning off font anti-aliasing and for Linux users to edit fonts.conf. Check this guide for more info:</p>
+            <a href="/fontguide" target="_blank">Font Guide</a>
             <p>Stay frosty! :3c</p>
           </div>
         </div>
@@ -102,31 +93,32 @@
     <div class="row" style="display: flex;"> <!-- Button row-->
       <div class="buttons">
         <div class="marquee">
-  <img src="/buttonv2.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttonv2.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
-  <img src="/buttons/under-con.gif">
+          <img src="/buttonv2.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttonv2.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
+          <img src="/buttons/under-con.gif">
         </div>
       </div>
     </div>
 
     <div class="row"> <!-- Comic row-->
-  <div class="container" style="margin-left: 1px;margin-right: 1px;">
+      <div class="container" style="margin-left: 1px;margin-right: 1px;">
         <div class="shadow">
         </div>
-        <a href="https://manahysteria.com/rss/zats_comic.xml" target="_blank" style="position: absolute;margin: 2px;"><img style="height: 18px;" src="https://manahysteria.com/rss/feed.png"></a>
+        <a href="https://manahysteria.com/rss/zats_comic.xml" target="_blank" style="position: absolute;margin: 2px;">
+          <img style="height: 18px;" src="https://manahysteria.com/rss/feed.png"></a>
         <img src="can.png" style="position: absolute;margin-top: -70px;margin-left: 500px;">
         <p class="impact" style="text-align: center;">LATEST COMIC!</p>
         <img src="/comics/Ancient_curse.png">
@@ -141,16 +133,20 @@
         <a href="https://manahysteria.com/rss/zats_art.xml" target="_blank" style="position: absolute;margin: 2px;"><img style="height: 18px;" src="https://manahysteria.com/rss/feed.png"></a>
         <p class="impact" style="text-align: center;">LATEST ART!</p>
         <a href="/art/fanart">
-        <img src="/art/fanart/Deltarune_ch5_drawing.png" style="height: 240px;">
+        <img src="/art/fanart/aqua.png" style="height: 240px;">
         </a>
       </div>
-      <div style="width: 200px; flex-shrink: 0;">
-        <img src="/deco/Splashart_sodatheif.png" style="position: absolute;">
+      <div style="width: 200px; flex-shrink: 0; margin-left:-1px">
+        <img src="/deco/Splashart_sodatheif.png" style="position: absolute; z-index: 1;">
       </div>
       <div class="container" style="margin-left: 4px;">
         <div class="shadow">
         </div>
         <a href="/blog" class="impact">The Zlog</a>
+        <div class="blogpostsmol">
+          <p>9/6/2025</p>
+          <a href="blog/entry6" target="_blank">Site Update Log no#3</a>
+        </div>
         <div class="blogpostsmol">
           <p>5/16/2026</p>
           <a href="blog/entry5" target="_blank">Semester madness no#1</a>
@@ -159,68 +155,39 @@
           <p>1/8/2026</p>
           <a href="blog/entry4" target="_blank">Site update Log no#2</a>
         </div>
-        <div class="blogpostsmol">
-          <p>9/6/2025</p>
-          <a href="blog/entry3" target="_blank">Site Update Log no#1</a>
-        </div>
       </div>
     </div>
-
-    <div class="row" style="display: flex;"> <!-- Stamps row-->
-      <div class="stamps" style="height: 60px;">
-        <div class="marqueestamp">
-  <img src="/stamps/bliss.png">
-  <img src="/stamps/ilovemyds.png"><img src="/stamps/phdinwood.gif">
-  <img src="/stamps/triplebaka.gif">
-  <img src="/stamps/cautionsharpedges.gif">
-  <img src="/stamps/smiling-friends.gif">
-  <img src="/stamps/pepsidog.png">
-  <img src="/stamps/LeDrBenjiDA10.png">
-  <img src="/stamps/dvd.gif"><img src="/stamps/nostalgiacritic.gif">
-  <img src="/stamps/ilovefries.png">
-  <img src="/stamps/susiepancake.gif">
-  <img src="/stamps/portal1.png">
-  <img src="/stamps/portal2.png">
-  <img src="/stamps/STAMPPJawz2.gif">
-  <img src="/stamps/wiggly.png">
-  <img src="/stamps/vargskelethor___vinesauce_joel_stamp_by_flns_da8pmrg.gif">
-  <img src="/stamps/bliss.png"> <!-- Duplicate images start here-->
-  <img src="/stamps/ilovemyds.png"><img src="/stamps/phdinwood.gif">
-  <img src="/stamps/triplebaka.gif">
-  <img src="/stamps/cautionsharpedges.gif">
-  <img src="/stamps/smiling-friends.gif">
-  <img src="/stamps/pepsidog.png">
-  <img src="/stamps/LeDrBenjiDA10.png">
-  <img src="/stamps/dvd.gif"><img src="/stamps/nostalgiacritic.gif">
-  <img src="/stamps/ilovefries.png">
-  <img src="/stamps/susiepancake.gif">
-  <img src="/stamps/portal1.png">
-  <img src="/stamps/portal2.png">
-  <img src="/stamps/STAMPPJawz2.gif">
-  <img src="/stamps/wiggly.png">
-  <img src="/stamps/vargskelethor___vinesauce_joel_stamp_by_flns_da8pmrg.gif">
-        </div>
-      </div>
-    </div>
-
+    
     <div class="row" style="display: flex;"> <!-- Etc row-->
       <div class="container" style="width: 216px;margin-left: 1px">
         <div class="shadow">
         </div>
         <a href="/blogmenu" class="impact">To-do List</a>
         <div style="overflow-y: scroll;height: 240px;">
-         <ul>
-  <li>Make the comic and flash page</li><li>Re-organize pages so urls make more sense</li><li>Add RSS feed for Blog</li><li>Fix the freakin hit counter</li>
-  <li>Figure out wtf else to put on this home page</li><li>Finish the last two nav buttons</li>
-  <li>Draw more assets</li>
-  <li>Improve the theme and layout of this site a little more</li><li>Make a new 88x31 button</li><li>Add new menu icons for the art page</li>
-</ul> 
+          <ul>
+            <li>Add RSS feed for Blog</li><li>Stylize the Guestbook</li><li>Fix the freakin hit counter</li>
+            <li>Figure out wtf else to put on this home page</li><li>Finish the last two nav buttons</li>
+            <li>Draw more assets</li>
+            <li>Improve the theme and layout of this site a little more</li><li>Make a new 88x31 button</li><li>Add new menu icons for the art page</li>
+          </ul> 
         </div>
-      </div><div class="container" style="text-align: center;width: 372px;margin-left: 4px;">
+      </div>
+      <div class="container" style="text-align: center;width: 372px;margin-left: 3px;">
         <div class="shadow">
         </div>
-        <p>This is where i would probably put any webrings that ive joined but i wanna wait until this site is in a more presentable state first, so have this computer cat</p>
-        <img src="internets.jpg" style="height: 175px;">
+        <p class="impact">Webrings</p>
+        <div style="overflow-y: scroll; overflow-x: hidden;">
+          <div id='gfdkris'> 
+            <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-variables.js"></script>
+            <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-widget.js"></script>
+          </div>
+          <div id='aperturewebring'>
+            <script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-variables.js"></script>
+            <script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-widget-1.js"></script>
+            <noscript>This site is part of the <a href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring">Aperture Webring</a>!
+            </noscript>
+          </div>
+        </div>
       </div>
     </div>
   </div> <!-- End of main-->
