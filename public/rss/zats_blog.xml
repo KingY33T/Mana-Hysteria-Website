@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Zats-a-sour Art Feed</title>
+        <description>The ramblings of some tea sipping cave dweller.</description>
+        <link>https://manahysteria.com/</link>
+        <lastBuildDate>
+            Thu, 10 Sep 2026 22:26:00 -0400
+        </lastBuildDate>
+        <ttl>20000</ttl>
+        <item>
+            <title>Site Update Log no#3 </title>
+            <link>https://manahysteria.com/blog</link>
+            <guid isPermaLink="false">Site update log 3</guid>
+            <pubDate>
+                Tue, 1 Sep 2026 12:00:00 EST
+            </pubDate>
+        </item>
+        <item>
+            <title>Semester madness no#1</title>
+            <link>https://manahysteria.com/blog</link>
+            <guid isPermaLink="false">Semester madness 1</guid>
+            <pubDate>
+                Sat, 16 May 2026 12:00:00 EST
+            </pubDate>
+        </item>
+    </channel>
+</rss>
