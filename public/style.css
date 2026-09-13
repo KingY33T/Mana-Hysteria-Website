@@ -93,7 +93,6 @@ body{
 
 .row {
   width: 610px;
-  margin-left: auto ;
   margin-bottom: 4px;
   margin-right: 1px
 }
@@ -150,9 +149,7 @@ body{
   
 .side {
   width: 150px;
-  flex-wrap: wrap;
   display: block;
-  position: absolute;
   margin-left: 1px;
 }
 
