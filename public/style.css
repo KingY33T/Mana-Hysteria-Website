@@ -27,7 +27,7 @@ body{
 .maincontainer {
   font-family: comic sans ms;
   font-size: 14px;
-  width: 768px;
+  width: 760px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -92,9 +92,8 @@ body{
 }
 
 .row {
-  width: 610px;
+  width: 600px;
   margin-bottom: 4px;
-  margin-right: 1px
 }
 /* use on <p> elements ONLY */
 .impact{
@@ -106,19 +105,15 @@ body{
 }
 .buttons {
   display: block;
-  width: 680px;
+  width: 600px;
   height: 33px;
-  margin-left: auto ;
-  margin-right: auto ;
   overflow: hidden;
 }
 
 .stamps {
   display: block;
-  width: 680px;
+  width: 600px;
   height: 60px;
-  margin-left: auto ;
-  margin-right: auto ;
   overflow: hidden;
 }
 
@@ -150,7 +145,7 @@ body{
 .side {
   width: 150px;
   display: block;
-  margin-left: 1px;
+  text-align: center;
 }
 
 
