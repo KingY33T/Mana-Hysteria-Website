@@ -63,7 +63,7 @@
     preferFlash: false,
     debugMode: true,
     useHTML5Audio: false,
-    url: '../swf/',
+    url: '/soundmanager2/swf/',
     flashLoadTimeout: 3600,
     waitForWindowLoad: false,
   });
