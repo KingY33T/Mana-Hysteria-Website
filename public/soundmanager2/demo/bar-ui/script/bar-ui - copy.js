@@ -59,7 +59,7 @@
   soundManager.setup({
     // trade-off: higher UI responsiveness (play/progress bar), but may use more CPU.
     html5PollingInterval: 50,
-    flashVersion: 9,
+    flashVersion: 8,
     preferFlash: false,
     debugMode: true,
     useHTML5Audio: false,

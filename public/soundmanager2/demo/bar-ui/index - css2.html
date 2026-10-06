@@ -6,41 +6,7 @@
 <meta name="viewport" content="width=500, initial-scale=1">
 
 <script src=".../soundmanagerv297a-20170601/ruffle-0.6.0-web-selfhosted/ruffle.js"></script>
-<script>
-(function() {
-  if (!navigator.plugins || !navigator.plugins['Shockwave Flash']) {
-    const mockPlugin = {
-      name: 'Shockwave Flash',
-      description: 'Shockwave Flash 32.0 r0 (Ruffle Polyfill)',
-      filename: 'mockflash.swf',
-      length: 1
-    };
-    
-    // Assign a mock MimeType mapping
-    mockPlugin[0] = {
-      type: 'application/x-shockwave-flash',
-      description: 'Shockwave Flash',
-      suffixes: 'swf',
-      enabledPlugin: mockPlugin
-    };
 
-    // Safely append to navigator.plugins
-    try {
-      Object.defineProperty(navigator, 'plugins', {
-        value: { ...navigator.plugins, 'Shockwave Flash': mockPlugin, length: (navigator.plugins.length || 0) + 1 },
-        writable: true
-      });
-      Object.defineProperty(navigator, 'mimeTypes', {
-        value: { ...navigator.mimeTypes, 'application/x-shockwave-flash': mockPlugin[0] },
-        writable: true
-      });
-    } catch (e) {
-      // Fallback fallback if navigator properties are strictly locked
-      navigator.plugins['Shockwave Flash'] = mockPlugin;
-    }
-  }
-})();
-</script>
 <script type="text/javascript" src="../../script/soundmanager2.js"></script>
 <script src="script/bar-ui - copy.js"></script>
 <link rel="stylesheet" href="css/bar-ui_css2_compliant.css">
