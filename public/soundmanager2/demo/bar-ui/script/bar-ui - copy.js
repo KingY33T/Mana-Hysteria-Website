@@ -62,7 +62,7 @@
     flashVersion: 9,
     preferFlash: false,
     debugMode: true,
-    useHTML5Audio: true,
+    useHTML5Audio: false,
     url: '../../swf/',
     flashLoadTimeout: 3600,
     waitForWindowLoad: false,
