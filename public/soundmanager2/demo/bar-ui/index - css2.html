@@ -12,6 +12,18 @@ window.RufflePlayer.config = {
     "allowScriptAccess": true
 };
 </script>
+<script>
+  // get sm2 ruffle container id
+const flashId = soundManager.id || 'sm2-container'; 
+const flashElement = document.getElementById(flashId);
+
+if (flashElement) {
+  // bheh
+  flashElement._externalInterfaceTest = function() {
+    return true; 
+  };
+}
+</script>
 <script type="text/javascript" src="../../script/soundmanager2.js"></script>
 <script src="script/bar-ui - copy.js"></script>
 <link rel="stylesheet" href="css/bar-ui_css2_compliant.css">
