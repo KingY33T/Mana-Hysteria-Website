@@ -4,11 +4,12 @@
 }
 
 #gfdkris{
-    display: block;
+    display: block !important;
 }
 
 .kwtfaw-div{
     display: block;
+    margin: 0 auto;
 }
 .kwtfaw-top{
     display: block;
