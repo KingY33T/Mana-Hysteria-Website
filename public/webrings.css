@@ -14,7 +14,7 @@
     display: block;
 }
 .kwtfaw-controls{
-    display: table;
+    display: table !important;
     margin: 0;
     border-collapse: separate;
     border-spacing: 0;
