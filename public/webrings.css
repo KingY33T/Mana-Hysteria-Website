@@ -2,3 +2,23 @@
     margin: 0 auto;
     background: black;
 }
+
+#gfdkris{
+    display: unset;
+}
+
+.kwtfaw-div{
+    display: unset;
+}
+.kwtfaw-top{
+    display: unset;
+}
+.kwtfaw-controls{
+    display: table;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.kwtfaw-button{
+    display: table-cell;
+}
