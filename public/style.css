@@ -152,8 +152,10 @@ body{
   border-collapse: collapse;
   font-size: 14px;
 }
-.layout td{
+
+.layout > tbody > tr > td{
   padding: 0;
+  vertical-align: top;
 }
 
 
