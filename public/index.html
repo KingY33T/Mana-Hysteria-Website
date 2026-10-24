@@ -262,6 +262,14 @@
         }
       }
       console.log("Custom-src images loaded!");
+      await delay(2000)
+      console.log("Loading custom-src-2 images...");
+      for (var i = 0; i < images.length; i++){
+        if (images[i].getAttribute('custom-src-2')) {
+          images[i].src = images[i].getAttribute('custom-src-2');
+        }
+      }
+      console.log("Custom-src-2 images loaded!");
     }
   </script>
   </body>
