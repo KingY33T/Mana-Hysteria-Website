@@ -148,6 +148,14 @@ body{
   text-align: center;
 }
 
+.layout{
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.layout td{
+  padding: 0;
+}
+
 
 footer{
   text-align: center;
