@@ -262,7 +262,7 @@
         }
       }
       console.log("Custom-src images loaded!");
-      await delay(2000)
+      setTimeout( function() {
       console.log("Loading custom-src-2 images...");
       for (var i = 0; i < images.length; i++){
         if (images[i].getAttribute('custom-src-2')) {
@@ -270,6 +270,8 @@
         }
       }
       console.log("Custom-src-2 images loaded!");
+    }, 1000
+      )
     }
   </script>
   </body>
