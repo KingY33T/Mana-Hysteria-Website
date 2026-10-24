@@ -207,7 +207,7 @@
                 <div style="overflow: auto;height: 240px;">
                   <ul>
                     <li>Make graphics pages</li><li>Work on "more" page</li><li>Work on Quake Fanpage</li><li>Add new menu icons for the art page</li>
-                    <li>Find a good music widget</li><li>Draw more assets</li><li>Stylize the Guestbook</li>
+                    <li>Improve image loading script</li><li>Draw more assets</li><li>Stylize the Guestbook</li>
                     <li>Optimize page</li><li>Fix the freakin hit counter</li>
                     <li>Figure out wtf else to put on this home page</li>
                   </ul> 
@@ -253,25 +253,64 @@
   </footer>
   <script type="text/javascript">
     window.onload = function() {
+      function imgloader2(){
+        console.log("Loading custom-src-2 images...");
+      var images =
+      document.getElementsByTagName('img');
+      var target = 0;
+      var loaded = 0;
+      for (var i = 0; i < images.length; i++){
+        if (images[i].getAttribute('custom-src-2')) {
+          target++;
+        }
+      }
+      console.log("defined target value")
+       if (target === 0) {
+        console.log("Custom-src-2 images loaded!");
+      } else {
+        for (var i = 0; i < images.length; i++){
+          if (images[i].getAttribute('custom-src-2')){
+            images[i].onload = function(){
+              loaded++;
+              console.log("loaded an image")
+              if (loaded === target) {
+                    console.log("Custom-src-2 images loaded!");
+                    
+              }
+            }
+            images[i].src = images[i].getAttribute('custom-src-2');
+          }
+        }
+      }
+      }
       console.log("Loading custom-src images...");
       var images =
       document.getElementsByTagName('img');
+      var target = 0;
+      var loaded = 0;
       for (var i = 0; i < images.length; i++){
         if (images[i].getAttribute('custom-src')) {
-          images[i].src = images[i].getAttribute('custom-src');
+          target++;
         }
       }
-      console.log("Custom-src images loaded!");
-      setTimeout( function() {
-      console.log("Loading custom-src-2 images...");
-      for (var i = 0; i < images.length; i++){
-        if (images[i].getAttribute('custom-src-2')) {
-          images[i].src = images[i].getAttribute('custom-src-2');
+      console.log("defined target value")
+       if (target === 0) {
+        console.log("Custom-src images loaded!");
+      } else {
+        for (var i = 0; i < images.length; i++){
+          if (images[i].getAttribute('custom-src')){
+            images[i].onload = function(){
+              loaded++;
+              console.log("loaded an image")
+              if (loaded === target) {
+                    console.log("Custom-src images loaded!");
+                    imgloader2();
+              }
+            }
+            images[i].src = images[i].getAttribute('custom-src');
+          }
         }
       }
-      console.log("Custom-src-2 images loaded!");
-    }, 1000
-      )
     }
   </script>
   </body>
