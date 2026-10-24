@@ -250,7 +250,7 @@
     <p>Copyright uuuuhhhhh...</p>
   </footer>
   <script type="text/javascript">
-    window.onload = function() {
+    window.addEventListener('load', function() {
       var images =
       document.getElementsByTagName('img');
       for (var i = 0; i < images.length; i++){
@@ -258,7 +258,7 @@
           images[i].src = images[i].getAttribute('custom-src');
         }
       }
-    }
+    })
   </script>
   </body>
 </html>
