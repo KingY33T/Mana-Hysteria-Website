@@ -1,0 +1,81 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stamps!</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="maincontainer" style="width: 600px;">
+      <div class="mini-header" style="height: 100px;">
+        <a href="https://zats-a-sour.neocities.org/more">
+          <img src="/navigation/bkbutton.png" onmouseover="this.src='/navigation/bkbuttonh.png'" onmouseout="this.src='/navigation/bkbutton.png'"></a>
+      </div>
+      <div class="container" style="text-align: center;">
+        <p class="impact">Stamps!!!</p>
+        <p>Here's my stamp collection! Stamps are usually less for promotion than buttons. They have a certain expressive energy that I like, similar to clothes pins or stickers.</p>
+        <img src="" custom-src="/stamps/a49.gif"><img src="" custom-src="/stamps/asdfWOAOAAAHHH.webp"><img src="" custom-src="/stamps/baka.gif"><img src="" custom-src="/stamps/bliss.png"><img src="" custom-src="/stamps/borgorshark.gif"><img src="" custom-src="/stamps/brick.jpg"><img src="" custom-src="/stamps/cautionsharpedges.gif"><img src="" custom-src="/stamps/chicken-jockey.webp"><img src="" custom-src="/stamps/d2.gif"><img src="" custom-src="/stamps/dangerousstamp.gif"><img src="" custom-src="/stamps/derpy.png"><img src="" custom-src="/stamps/dvd.gif"><img src="" custom-src="/stamps/errorgameover.gif"><img src="" custom-src="/stamps/firefox.png"><img src="" custom-src="/stamps/frenchfries.gif"><img src="" custom-src="/stamps/fukkireta.gif"><img src="" custom-src="/stamps/garfield.png"><img src="" custom-src="/stamps/gorillaz_stamp.gif"><img src="" custom-src="/stamps/h12.png"><img src="" custom-src="/stamps/hatsune-hatsune.png"><img src="" custom-src="/stamps/idrinkglitterglue.png"><img src="" custom-src="/stamps/iheartspamton1.png"><img src="" custom-src="/stamps/ihearttenna2.png"><img src="" custom-src="/stamps/ilovefries.png"><img src="" custom-src="/stamps/ilovemyds.png"><img src="" custom-src="/stamps/in-dinosaur.gif"><img src="" custom-src="/stamps/ipod.gif"><img src="" custom-src="/stamps/juicedup.gif"><img src="" custom-src="/stamps/keyboar.png"><img src="" custom-src="/stamps/krita_stamp.gif"><img src="" custom-src="/stamps/LeDrBenjiDA1.png"><img src="" custom-src="/stamps/LeDrBenjiDA10.png"><img src="" custom-src="/stamps/LeDrBenjiDA2.png"><img src="" custom-src="/stamps/LeDrBenjiDA7.png"><img src="" custom-src="/stamps/loveforgamecube.gif"><img src="" custom-src="/stamps/luigirave.gif"><img src="" custom-src="/stamps/mahboi.png"><img src="" custom-src="/stamps/mario_s_answer_by_mariofan9_d1f4uhd.png"><img src="" custom-src="/stamps/miku-2.gif"><img src="" custom-src="/stamps/newgrounds.png"><img src="" custom-src="/stamps/nostalgiacritic.gif"><img src="" custom-src="/stamps/pearlieprincess19.gif"><img src="" custom-src="/stamps/pepsidog.png"><img src="" custom-src="/stamps/phdinwood.gif"><img src="" custom-src="/stamps/portal1.png"><img src="" custom-src="/stamps/portal2.png"><img src="" custom-src="/stamps/rainbow-road.gif"><img src="" custom-src="/stamps/rickroll.gif"><img src="" custom-src="/stamps/rthytr6hr.jpg"><img src="" custom-src="/stamps/s_antinazi.jpg"><img src="" custom-src="/stamps/s_antinazi.png"><img src="" custom-src="/stamps/s_antinazi1.png"><img src="" custom-src="/stamps/s_bugs.gif"><img src="" custom-src="/stamps/s_cat1.gif"><img src="" custom-src="/stamps/s_halflife1.png"><img src="" custom-src="/stamps/s_valve.gif"><img src="" custom-src="/stamps/scottwozstamp.webp"><img src="" custom-src="/stamps/smiling-friends.gif"><img src="" custom-src="/stamps/spiral.gif"><img src="" custom-src="/stamps/STAMPPJawz2.gif"><img src="" custom-src="/stamps/susiepancake.gif"><img src="" custom-src="/stamps/tetoteto.gif"><img src="" custom-src="/stamps/thebread (6).gif"><img src="" custom-src="/stamps/triplebaka.gif"><img src="" custom-src="/stamps/tumblr_995d5e6763ce8c247e22a315cf0be03b_c2b24bbc_100.png"><img src="" custom-src="/stamps/vargskelethor___vinesauce_joel_stamp_by_flns_da8pmrg.gif"><img src="" custom-src="/stamps/wiggly.png"><img src="" custom-src="/stamps/wii.gif"><img src="" custom-src="/stamps/xbox-360.gif"><img src="" custom-src="/stamps/zomg.gif"><img src="" custom-src="/stamps/zyN5Wqu.gif">
+      </div>
+    </div>
+  <script type="text/javascript">
+    window.onload = function() {
+      function imgloader2(){
+        console.log("Loading custom-src-2 images...");
+      var images =
+      document.getElementsByTagName('img');
+      var target = 0;
+      var loaded = 0;
+      for (var i = 0; i < images.length; i++){
+        if (images[i].getAttribute('custom-src-2')) {
+          target++;
+        }
+      }
+      console.log("defined target value")
+       if (target === 0) {
+        console.log("Custom-src-2 images loaded!");
+      } else {
+        for (var i = 0; i < images.length; i++){
+          if (images[i].getAttribute('custom-src-2')){
+            images[i].onload = function(){
+              loaded++;
+              console.log("loaded an image")
+              if (loaded === target) {
+                    console.log("Custom-src-2 images loaded!");
+                    
+              }
+            }
+            images[i].src = images[i].getAttribute('custom-src-2');
+          }
+        }
+      }
+      }
+      console.log("Loading custom-src images...");
+      var images =
+      document.getElementsByTagName('img');
+      var target = 0;
+      var loaded = 0;
+      for (var i = 0; i < images.length; i++){
+        if (images[i].getAttribute('custom-src')) {
+          target++;
+        }
+      }
+      console.log("defined target value")
+       if (target === 0) {
+        console.log("Custom-src images loaded!");
+      } else {
+        for (var i = 0; i < images.length; i++){
+          if (images[i].getAttribute('custom-src')){
+            images[i].onload = function(){
+              loaded++;
+              console.log("loaded an image")
+              if (loaded === target) {
+                    console.log("Custom-src images loaded!");
+                    imgloader2();
+              }
+            }
+            images[i].src = images[i].getAttribute('custom-src');
+          }
+        }
+      }
+    }
+  </script>
+</body></html>
