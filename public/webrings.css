@@ -23,3 +23,7 @@
 .kwtfaw-button{
     display: table-cell;
 }
+#aperturewebring .webring-info{
+    text-align: center;
+    font-family: monospace;
+}

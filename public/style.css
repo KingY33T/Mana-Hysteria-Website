@@ -6,8 +6,16 @@
 body{
   margin: 0%;
   background-color: #8251ad;
-  background-image: url(/background/bg_wood_final.png);
+  background-image: url(/background/bg_wood_purple.gif);
   color: black;
+}
+
+.banner{
+  position: absolute;
+  width: 100%;
+  height: 256px;
+  background-image: url(/background/banner_regular.gif);
+  z-index: -1;
 }
 
 .header-img{
