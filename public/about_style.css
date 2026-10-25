@@ -55,7 +55,7 @@ margin: 0px;
 color: lime;
 }
 
-footer {
+.footer {
 text-align: center;
 background: black;
 color: white;
@@ -63,10 +63,10 @@ width: 600px;
 margin: 0px auto;
 }
 
-footer p{
+.footer p{
 margin: 2px;
 }
 
-footer a{
+.footer a{
 color: aqua;
 }

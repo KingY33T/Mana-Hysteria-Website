@@ -26,8 +26,8 @@ body{
 
 .maincontainer {
   font-family: comic sans ms;
-  font-size: 14px;
-  width: 760px;
+  font-size: small;
+  width: 750px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -150,16 +150,17 @@ body{
 
 .layout{
   border-collapse: collapse;
-  font-size: 14px;
+  font-size: small;
 }
 
 .layout > tbody > tr > td{
   padding: 0;
   vertical-align: top;
+  font-size: small;
 }
 
 
-footer{
+.footer{
   text-align: center;
   bottom: 0;
   margin-left: auto;
@@ -171,6 +172,6 @@ a{
   color:blue;
 }
 
-footer p{
+.footer p{
   margin: 2px;
 }
