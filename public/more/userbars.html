@@ -1,0 +1,81 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Userbars!</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="maincontainer" style="width: 600px;">
+      <div class="mini-header" style="height: 100px;">
+        <a href="https://zats-a-sour.neocities.org/more">
+          <img src="/navigation/bkbutton.png" onmouseover="this.src='/navigation/bkbuttonh.png'" onmouseout="this.src='/navigation/bkbutton.png'"></a>
+      </div>
+      <div class="container" style="text-align: center;">
+        <p class="impact">Userbars!!!</p>
+        <p>Here's my userbar collection! These were more common a little later in the 2000s on forums, rather than really old websites. You would put one of these in your signature to tell everyone a little bit about yourself.</p>
+  <img src="" custom-src="/userbar/addisonuserbar.png"><img src="" custom-src="/userbar/bright-colors.gif"><img src="" custom-src="/userbar/cod-player.gif"><img src="" custom-src="/userbar/cuptainuserbar.png"><img src="" custom-src="/userbar/cute_but_deadly.jpg"><img src="" custom-src="/userbar/deltarune-fan.png"><img src="" custom-src="/userbar/emo-bs.gif"><img src="" custom-src="/userbar/emo.jpg"><img src="" custom-src="/userbar/energy.gif"><img src="" custom-src="/userbar/error.gif"><img src="" custom-src="/userbar/fnaf-fan.png"><img src="" custom-src="/userbar/gta-player.jpg"><img src="" custom-src="/userbar/ipodnano-user.webp"><img src="" custom-src="/userbar/ipodnano_pink.gif"><img src="" custom-src="/userbar/ipoduserbar.jpg"><img src="" custom-src="/userbar/jeviluserbar.png"><img src="" custom-src="/userbar/lovehasnogender.gif"><img src="" custom-src="/userbar/miku-fan.png"><img src="" custom-src="/userbar/minecraft-fan.png"><img src="" custom-src="/userbar/minecraft.gif"><img src="" custom-src="/userbar/monster-drinker.gif"><img src="" custom-src="/userbar/music-lover.gif"><img src="" custom-src="/userbar/ng_everythingbyeveryone.png"><img src="" custom-src="/userbar/nin.jpeg"><img src="" custom-src="/userbar/nintendodsowner.gif"><img src="" custom-src="/userbar/programmer.gif"><img src="" custom-src="/userbar/ps2-owner.png"><img src="" custom-src="/userbar/pvz-player.png"><img src="" custom-src="/userbar/rainbowdash.png"><img src="" custom-src="/userbar/sonic-fan.gif"><img src="" custom-src="/userbar/sonypsp.png"><img src="" custom-src="/userbar/southpark-fan.png"><img src="" custom-src="/userbar/southpark.gif"><img src="" custom-src="/userbar/steamuser.jpg"><img src="" custom-src="/userbar/teto-fan.png"><img src="" custom-src="/userbar/win7-user.png"><img src="" custom-src="/userbar/windows10.png"><img src="" custom-src="/userbar/winxp-user.gif"><img src="" custom-src="/userbar/wmplayer-user.png"><img src="" custom-src="/userbar/xb360elite.gif"><img src="" custom-src="/userbar/xboxfan.jpg"><img src="" custom-src="/userbar/zim.gif"><img src="" custom-src="/userbar/zim.gif">
+</div>
+    </div>
+  <script type="text/javascript">
+    window.onload = function() {
+      function imgloader2(){
+        console.log("Loading custom-src-2 images...");
+      var images =
+      document.getElementsByTagName('img');
+      var target = 0;
+      var loaded = 0;
+      for (var i = 0; i < images.length; i++){
+        if (images[i].getAttribute('custom-src-2')) {
+          target++;
+        }
+      }
+      console.log("defined target value")
+       if (target === 0) {
+        console.log("Custom-src-2 images loaded!");
+      } else {
+        for (var i = 0; i < images.length; i++){
+          if (images[i].getAttribute('custom-src-2')){
+            images[i].onload = function(){
+              loaded++;
+              console.log("loaded an image")
+              if (loaded === target) {
+                    console.log("Custom-src-2 images loaded!");
+                    
+              }
+            }
+            images[i].src = images[i].getAttribute('custom-src-2');
+          }
+        }
+      }
+      }
+      console.log("Loading custom-src images...");
+      var images =
+      document.getElementsByTagName('img');
+      var target = 0;
+      var loaded = 0;
+      for (var i = 0; i < images.length; i++){
+        if (images[i].getAttribute('custom-src')) {
+          target++;
+        }
+      }
+      console.log("defined target value")
+       if (target === 0) {
+        console.log("Custom-src images loaded!");
+      } else {
+        for (var i = 0; i < images.length; i++){
+          if (images[i].getAttribute('custom-src')){
+            images[i].onload = function(){
+              loaded++;
+              console.log("loaded an image")
+              if (loaded === target) {
+                    console.log("Custom-src images loaded!");
+                    imgloader2();
+              }
+            }
+            images[i].src = images[i].getAttribute('custom-src');
+          }
+        }
+      }
+    }
+  </script>
+</body></html>
